@@ -2,7 +2,13 @@ import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebas
 import { getFirestore, collection, getDocs, updateDoc, doc, addDoc, onSnapshot } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
 
 const firebaseConfig = {
-  // Replace with your actual Firebase config
+  apiKey: "AIzaSyBEpLgHjLHSqaOj-UZhPIq4KuZkf5G4fHk",
+  authDomain: "maady-music.firebaseapp.com",
+  projectId: "maady-music",
+  storageBucket: "maady-music.firebasestorage.app",
+  messagingSenderId: "306006727539",
+  appId: "1:306006727539:web:ea3dd2efe52a7f24464306",
+  measurementId: "G-LGZ7XXP8Y3"
 };
 
 const app = initializeApp(firebaseConfig);
