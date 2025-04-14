@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.song {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+img {
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.comments {
+  margin-top: 10px;
+}
+input {
+  flex-grow: 1;
+  padding: 8px;
+}
+button {
+  margin-left: 5px;
+  padding: 8px 12px;
+}
+.comment-box {
+  margin-top: 10px;
+}
